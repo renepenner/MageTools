@@ -34,5 +34,4 @@ $final_local_xml = preg_replace_callback(
 
 file_put_contents(MAGENTO_DIR . 'app/etc/local.xml', $final_local_xml);
 
-echo $final_local_xml;
-echo "\n\n";
+echo "local.xml created! \n\n";
