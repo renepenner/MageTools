@@ -1,0 +1,13 @@
+{
+    "name":"renepenner/MageTools",
+    "description":"Collection of scripts for Magento",
+    "minimum-stability":"dev",
+    "authors":[
+        {
+            "name":"René Penner"
+        }
+    ],
+    "bin": [
+        "create-localxml.php"
+    ]
+}
