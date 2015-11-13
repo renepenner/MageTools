@@ -9,6 +9,6 @@
         }
     ],
     "bin": [
-        "create-localxml.php"
+        "src/create-localxml.php"
     ]
 }

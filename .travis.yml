@@ -1,6 +1,14 @@
 language: php
+
 php:
   - 5.4
   - 5.5
   - 5.6
-script: phpunit tests/ExampleTest.php
+
+before_script:
+  ## PHP Copy/Paste Detector
+  - curl -o phpcpd.phar https://phar.phpunit.de/phpcpd.phar
+
+script:
+  - phpunit tests/ExampleTest.php
+  - phpcpd --verbose --min-tokens=20  ./src

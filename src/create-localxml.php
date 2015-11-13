@@ -19,6 +19,14 @@ $env_name = 'develop';
 $env_json = file_get_contents( BASE_DIR . '/conf/magento/'.$env_name.'.json' );
 $env = json_decode($env_json, true);
 
+$env_name = 'develop';
+$env_json = file_get_contents( BASE_DIR . '/conf/magento/'.$env_name.'.json' );
+$env = json_decode($env_json, true);
+
+$env_name = 'develop';
+$env_json = file_get_contents( BASE_DIR . '/conf/magento/'.$env_name.'.json' );
+$env = json_decode($env_json, true);
+
 $config_array = array_replace_recursive($dafault, $env);
 
 $local_xml_template = file_get_contents( BASE_DIR . '/conf/magento/local.xml' );
