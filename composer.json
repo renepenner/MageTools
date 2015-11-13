@@ -5,6 +5,7 @@
     "authors":[
         {
             "name":"René Penner"
+            "email": "rene@penner.name",
         }
     ],
     "bin": [
