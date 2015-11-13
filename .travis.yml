@@ -11,4 +11,4 @@ before_script:
 
 script:
   - phpunit tests/ExampleTest.php
-  - phpcpd --verbose --min-tokens=20  ./src
+  - php phpcpd.phar --verbose --min-tokens=20  ./src
