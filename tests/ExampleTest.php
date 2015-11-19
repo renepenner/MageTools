@@ -1,16 +1,19 @@
 <?php
 
-class ExampleTest extends PHPUnit_Framework_TestCase{
+namespace renepenner/Tests;
 
-  public function testExample()
-   {
-       // Arrange
-       $a = true;
+class ExampleTest extends PHPUnit_Framework_TestCase
+{
 
-       // Act
-       $b = $a;
+    public function testExample()
+    {
+        // Arrange
+        $a = true;
 
-       // Assert
-       $this->assertEquals($a, $b);
-   }
+        // Act
+        $b = $a;
+
+        // Assert
+        $this->assertEquals($a, $b);
+    }
 }

@@ -2,10 +2,13 @@
     "name":"renepenner/mage-tools",
     "description":"Collection of scripts for Magento",
     "minimum-stability":"dev",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*"
+    },
     "authors":[
         {
             "name":"René Penner",
-            "email": "rene@penner.name",
+            "email":"rene@penner.name"
         }
     ],
     "bin": [
