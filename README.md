@@ -1,3 +1,6 @@
+[![Code Climate](https://codeclimate.com/github/renepenner/mage-tools/badges/gpa.svg)](https://codeclimate.com/github/renepenner/mage-tools)
+[![Build Status](https://travis-ci.org/renepenner/mage-tools.svg?branch=develop)](https://travis-ci.org/renepenner/mage-tools)
+
 # MageTools
 
 MageTools are a set of scripts to support a Magento environment.
