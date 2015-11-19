@@ -4,8 +4,8 @@ namespace renepenner\MageTools;
 
 class JsonConfig
 {
-    function __construct()
+    public function __construct()
     {
-        
+
     }
 }
