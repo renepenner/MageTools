@@ -18,3 +18,6 @@ JSON files.
  conf/magento/default.json    <-- default config values
  conf/magento/develop.json    <-- values for develop scope
 ```
+
+
+foobar STYLE
